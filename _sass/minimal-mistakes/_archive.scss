@@ -2,6 +2,10 @@
    ARCHIVE
    ========================================================================== */
 
+a {
+  color: $purple-secondary-color;
+}
+
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
@@ -31,11 +35,15 @@
   }
 }
 
+.archive-item .page__taxonomy {
+  margin-left: 0.5rem;
+}
+
 .archive__subtitle {
-  margin: 0.8em 0 0;
+  margin: 0.8em 0 1.5em;
   padding-bottom: 0.5em;
   font-size: $type-size-3;
-  color: mix(#fff,$primary-color, 40%);
+  color: $purple-primary-color;
   border-bottom: 1px solid $border-color;
   font-family: $serif;
 
@@ -44,8 +52,12 @@
   }
 }
 
+.archive__subtitle span {
+  color: $purple-secondary-color;
+}
+
 .archive__item-title {
-  margin-bottom: 0.9em;
+  // margin-bottom: 0.9em;
   font-family: $sans-serif-narrow;
   line-height: 1.5;
   overflow: hidden;
@@ -54,7 +66,7 @@
   font-size: $type-size-4;
 
   a[rel="permalink"]::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -65,6 +77,10 @@
   a + a {
     opacity: 0.5;
   }
+}
+
+.archive__item-title a {
+  color: $purple-secondary-color;
 }
 
 /* remove border*/
@@ -129,7 +145,7 @@
 
 .list__item {
   .page__meta {
-    margin: 0 0 4px;
+    margin: -0.1rem 0 4px;
     font-size: 0.6em;
   }
 }
@@ -280,7 +296,7 @@
   }
 
   a.btn::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -306,7 +322,7 @@
     }
 
     a.btn::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -347,7 +363,7 @@
     }
 
     a.btn::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -391,7 +407,7 @@
     }
 
     a.btn::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -437,7 +453,7 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -452,7 +468,7 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }
