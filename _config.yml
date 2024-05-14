@@ -111,7 +111,7 @@ author:
     #  url: "https://instagram.com/06.25ash"
     - label: "Portfolio"
       icon: "fas fa-fw fa-link"
-      url: "https://seyeonjo.com"
+      url: "https://syj-uxd-proj-portfolio.netlify.app/"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
     # url: "https://twitter.com/"
