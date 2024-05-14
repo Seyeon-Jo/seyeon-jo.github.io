@@ -1,1 +1,0 @@
-# seyeon-jo.github.io
