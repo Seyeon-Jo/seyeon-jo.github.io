@@ -1,7 +1,7 @@
 ---
-title: "Android Development"
+title: "Kotlin"
 layout: archive
-permalink: categories/android-dev
+permalink: categories/kotlin
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ---
 
-{% assign posts = site.categories.Android-Dev %}
+{% assign posts = site.categories.Kotlin %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
