@@ -100,6 +100,13 @@
         <span class="nav__sub-title">Software Engineering</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Testing-QA" %}
+                        <li><a href="/categories/testing-qa" class="">Testing and QA ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Software" %}
                         <li><a href="/categories/software" class="">Software Engng ({{category[1].size}})</a></li>
                     {% endif %}
