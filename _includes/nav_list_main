@@ -112,13 +112,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Software-R" %}
-                        <li><a href="/categories/software-r" class="">Software Requirements Engng ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
 
         <span class="nav__sub-title">Fundatmentals</span>
             <ul>
