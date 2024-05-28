@@ -1,7 +1,7 @@
 ---
-title: "UX Design Process"
+title: "UX Design"
 layout: archive
-permalink: categories/uxdprocess
+permalink: categories/uxd
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ---
 
-{% assign posts = site.categories.UxdProcess %}
+{% assign posts = site.categories.Uxd %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
